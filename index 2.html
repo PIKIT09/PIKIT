@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content ="width=device-width/ initial scale=1.0">
+<title>STUDENT DATA</title>
+<link ref="stylesheet" href="style.css">
+<style>
+body {
+  margin: 0%;
+  padding: 0%;
+}
+    /* CSS for header */
+    .header {
+      
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FF817E;
+        margin: auto;
+    }
+
+    .header .logo {
+        font-size: 35px;
+        font-family: 'Britannic Bold', cursive;
+        color: #000000;
+        text-decoration: none;
+        margin-left: 50px;
+    }
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #FF817E;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #000000;
+      padding: 35px 20px;
+    }
+
+    /* CSS for main element */
+    body {
+      margin: 0%;
+        padding: 0;
+      
+      background: linear-gradient(to bottom, rgba(126, 104, 71, 0.5) 0%, rgba(126, 104, 71, 0.5) 100%), url("index.jpg");
+        text-align: left;
+    }
+    form {
+      max-width: 500px;
+      text-align: left;
+      padding: 20px;
+      border: 3px solid black;
+      border-radius: 10px;
+      text-align: left;
+    }
+    input {
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        text-align:left;
+        display: flex;
+        flex-direction: left
+      ;
+
+    }
+    .input-element {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    select {
+      padding: 5px;
+        border: none;
+        border-radius: 5px;
+        text-align: left;
+    }
+    input [type="checkbox"] {
+      width: 15px;
+      height: 15px;
+      text-align: left;
+      }
+
+img {
+    border-radius: 20%;
+}
+    /* CSS for footer */
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #FF817E;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #00000;
+    }
+
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .bottom-links .links span {
+      font-size: 20px;
+      color: #000000;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #000000;
+      padding: 10px 20px;
+    }
+</style>
+</head>
+<body>
+    <header class="header">
+      <a href="#" class="logo">PIKIT</a>
+      <nav class="nav-items">
+        <a href="index.html">HOMEPAGE</a>
+        <a href="index 3.html">VIDEO</a>
+
+      </nav>
+    </header>
+    <main>
+      <center>
+
+      <h1 id="title">STUDENT PROFILE</h1>
+      <p id="desciription">Thank you for answering</p>
+          
+          <form id="survey-form">
+          <div class="input-element">
+          <label>
+              Name :
+              </label id="name-label">
+              <input placeholder="name" id="name" type="text" required/>
+          </div>
+      
+              <div class="input-element">
+                  <label id="email-label">
+                      Email :
+                      </label>
+                      <input placeholder="email" id="email" type="email" required/>
+                      </div>
+      
+                      <div class="input-element">
+                          <label id="number-label">
+                              Age :
+                              </label>
+                              <input placeholder="age" id="number" min="5" max="18" type="number" required/>
+                              </div>
+      
+                              <div class="input-element">
+                                  <label id="name-label">
+                                      Student Id :
+                                  </label>
+                                      <input placeholder="Student id" id="name" type="name" required/>
+                                      </div>
+      
+                                      <div class="input-element">
+                                          <label id="Birthdate">
+                                              Birthdate :
+                                              </label>
+                                              <select id="dropdown">
+                                                  <option>1</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                                  <option>6</option>
+                                                  <option>7</option>
+                                                  <option>8</option>
+                                                  <option>9</option>
+                                                  <option>10</option>
+                                                  <option>11</option>
+                                                  <option>12</option>
+                                                  <option>13</option>
+                                                  <option>14</option>
+                                                  <option>15</option>
+                                                  <option>16</option>
+                                                  <option>17</option>
+                                                  <option>18</option>
+                                                  <option>19</option>
+                                                  <option>20</option>
+                                                  <option>21</option>
+                                                  <option>22</option>
+                                                  <option>23</option>
+                                                  <option>24</option>
+                                                  <option>25</option>
+                                                  <option>26</option>
+                                                  <option>27</option>
+                                                  <option>28</option>
+                                                  <option>29</option>
+                                                  <option>30</option>
+                                                  <option>31</option>
+                                                  
+                                              </select>
+                                              </div>
+      
+                                      <div class="input-element">
+                                          <label id="select-label">
+                                              Birthmonth :
+                                              </label>
+                                              <select id="dropdown">
+                                                  <option>January</option>
+                                                  <option>February</option>
+                                                  <option>March</option>
+                                                  <option>April</option>
+                                                  <option>May</option>
+                                                  <option>June</option>
+                                                  <option>July</option>
+                                                  <option>August</option>
+                                                  <option>September</option>
+                                                  <option>October</option>
+                                                  <option>November</option>
+                                                  <option>December</option>
+                                                  
+                                              </select>
+                                              </div>
+                                              <div class="input-element">
+                                                  <label id="select-label">
+                                                      Birthyear :
+                                                      </label>
+                                                      <select id="dropdown">
+                                                          <option>2005</option>
+                                                          <option>2006</option>
+                                                          <option>2007</option>
+                                                          <option>2008</option>
+                                                          <option>2009</option>
+                                                          <option>2010</option>
+                                                          <option>2011</option>
+                                                          <option>2012</option>
+                                                          <option>2013</option>
+                                                          <option>2014</option>
+                                                          <option>2015</option>
+                                                          <option>2016</option>
+                                                          <option>2017</option>
+                                                          
+                                                      </select>
+                                                      </div>
+                                              
+                                              <div class="input-elements">
+                                                  <label>ADVISER? </label>
+                                                  <div>
+                                                  <label><input type="checkbox" name="name"/>Ginoong Lim</label>
+                                                  </div>
+      
+                                                  <div>
+                                                  <label><input type="checkbox" name="name"/>Sir Reynante</label>
+                                                  </div>
+      
+                                              </div>
+                                              <div class="input-elemnts">
+                                                  <label>Additional comments : </label>
+                                                  <textarea type="text"></textarea>
+                                              </div>
+ 
+ 
+  <input type="submit" value="Submit">
+
+
+</form>
+<br>
+<br>
+<br>
+</center>
+      </div>
+
+</main></body>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>HOMEPAGE</title>
+    <link rel="stylesheet" href="styles.css">
+
+<footer class="footer">
+    <div class="copy">© 2022 Developer</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>More Info</span>
+        <a href="https://www.google.com/maps/place/Rizal+High+School/@14.5679558,121.0761192,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNBCKj7qCZPFUK87ELpwjzVdzcoTeExwpv7oWyC!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNBCKj7qCZPFUK87ELpwjzVdzcoTeExwpv7oWyC%3Dw114-h86-k-no!7i2048!8i1536!4m11!1m2!2m1!1srhs!3m7!1s0x3397c8771ebe7133:0xfe3b63c1ec93cd4d!8m2!3d14.5679599!4d121.0760879!10e5!15sCgNyaHMiA4gBAZIBC2hpZ2hfc2Nob29s4AEA!16s%2Fm%2F02x9v31?entry=ttu">Adress :</a>
+<a href="STUDENT PROFILE 2.html">About :</a>
+        <a href="https://www.facebook.com/profile.php?id=100072084969745">Contact :</a>
+      </div>
+      <div class="links">
+        <span>Social Links</span>
+        <a href="https://www.google.com/maps/place/Rizal+High+School/@14.5679558,121.0761192,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNBCKj7qCZPFUK87ELpwjzVdzcoTeExwpv7oWyC!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNBCKj7qCZPFUK87ELpwjzVdzcoTeExwpv7oWyC%3Dw114-h86-k-no!7i2048!8i1536!4m11!1m2!2m1!1srhs!3m7!1s0x3397c8771ebe7133:0xfe3b63c1ec93cd4d!8m2!3d14.5679599!4d121.0760879!10e5!15sCgNyaHMiA4gBAZIBC2hpZ2hfc2Nob29s4AEA!16s%2Fm%2F02x9v31?entry=ttu">Dr. Sixto Antonio Ave., Pasig, 1600 Metro Manila</a>
+      <a href="STUDENT PROFILE 2.html">STUDENT PROFILE</a>
+       <a href="https://www.facebook.com/profile.php?id=100072084969745">Sheirley Ang</a>
+        
+      
+      </div>
+</div>
+    </footer>
+
+  </style>
+</head>
+
